@@ -1,0 +1,6 @@
+[build]
+  # Creates the tables and the admin account during the build, so no terminal is needed.
+  command = "npm run build:netlify"
+
+[build.environment]
+  NODE_VERSION = "20"
